@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#check{
+    display: none;
+}
+.main_box{
+    height: 100vh;
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
+.btn_one{
+    color: azure;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 10px;
+    position: absolute;
+    left:20px ;
+}
+.sidebar_menu{
+    position: fixed;
+    left: -350px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(245, 245, 245, 0.556); 
+    transition: 0.2s linear ;
+}
+.logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 5px rgba(245, 245, 245, 0.556);
+    text-align: center; 
+}
+.logo>a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: auto;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.btn_two{
+    position: absolute;
+    top: 12px;
+    left: 260px;
+    color: grey;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.menu{
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.menu>ul>li{
+    margin-top: 10px;
+    padding: 10px 20px;
+    line-height: 45px;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-left: 10px;
+}
+.social_media{
+    position: absolute;
+    top:670px;
+    left: 90px;
+}
+.social_media>ul>a{
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 10px;
+    transition:  font-size 2s ease-in-out 0s;
+}
+.menu>ul>li:hover{
+    box-shadow: 0 0 5px rgba(245, 245, 245, 0.556);
+}
+.btn_one:hover{
+    font-size: 40px;
+}
+.btn_two:hover{
+    font-size: 35px;
+}
+.social_media>ul>a>i:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 5px rgba(245, 245, 245, 0.556);
+    opacity: 1;
+}
+#check:checked~.sidebar_menu{
+    left: 0;
+}
+#check:checked~.btn_one{
+    opacity: 0;
+}
+
