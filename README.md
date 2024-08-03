@@ -9,7 +9,7 @@ This project demonstrates a simple, responsive sidebar toggle using only HTML an
 ## Usage
 1. **Clone the Repository**: 
     ```bash
-    git clone https://github.com/yourusername/sidebar-toggle.git
+    git clone https://github.com/Saksham1367/Sidebar-using-HTML-And-Css-.git
     ```
 2. **Open the Project**:
     - Navigate to the project directory.
